@@ -41,7 +41,7 @@ install_repo() {
 
 # Função para carregar configurações de hostname e metadata de arquivo externo
 load_config() {
-    CONFIG_FILE="config_hostmetada"
+    CONFIG_FILE="config_hostmetada.txt"
     HASH_FILE="config_hash"
     
     if [ ! -f "$CONFIG_FILE" ]; then
